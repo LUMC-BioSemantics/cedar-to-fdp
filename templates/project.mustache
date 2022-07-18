@@ -1,0 +1,36 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix sio: <http://semanticscience.org/resource/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix st: <https://purl.org/fairdatapoint/staging/>.
+@prefix ont: <http://omv.ontoware.org/2005/05/ontology#>.
+@prefix n: <http://open-services.net/ns/>.
+@prefix f: <https://purl.org/fairdatapoint/>.
+@prefix p: <http://purl.org/pav/>.
+@prefix schem: <http://schema.org/>.
+@prefix gdmt: <http://vocab.fairdatacollective.org/gdmt/>.
+@prefix rep: <https://w3id.org/reproduceme#>.
+
+st:new
+    a dcat:Resource, foaf:Project;
+    ont:acronym "{{acronym}}";
+    n:modifiedBy <http://example.com/Oslc:modifiedby>;
+    dct:description "REPLACE_Test item";
+    dct:hasVersion "1";
+    dct:isPartOf f:staging;
+    dct:publisher [ a foaf:Agent; foaf:name "REPLACE_Publisher" ];
+    dct:title "{{title}}";
+    p:createdBy <http://example.com/Pav:createdby>;
+    p:createdOn "2022-07-08T00:00:00Z"^^xsd:dateTime;
+    p:lastUpdatedOn "2022-07-02T00:00:00Z"^^xsd:dateTime;
+    schem:description "REPLACE_Schema:description";
+    schem:endDate "{{endDate}}";
+    schem:identifier "{{identifier}}";
+    schem:isBasedOn <http://example.com/Schema:isbasedon>;
+    schem:name "http://example.com/Schema:name";
+    schem:startDate "{{startDate}}";
+    sio:SIO_000001 "REPLACE_Name of the lead institution, or country";
+    foaf:homepage "{{homepage}}";
+    gdmt:hasFunderName "REPLACE_Has funder name";
+    rep:ORCID "{{ORCID}}".
