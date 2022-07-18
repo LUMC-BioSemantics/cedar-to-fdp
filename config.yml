@@ -1,10 +1,10 @@
 FDP:
-  URL: "https://yourfdp.com"
-  USERNAME: "username@example.com"
-  PASSWORD: "password"
-  PERSISTENT_URL: "https://yourfdp.com"
+  URL: "https://staging.fairdatapoint.org"
+  USERNAME: "raj@example.com"
+  PASSWORD: "lumc"
+  PERSISTENT_URL: "https://purl.org/fairdatapoint/staging"
 CEDAR:
   TEMPLATE_ID: "afdf8511-2ed0-4b9e-93c1-c8022847b2de"
   TEMPLATE_URL: "https://resource.metadatacenter.org/search?is_based_on=https%3A%2F%2Frepo.metadatacenter.org%2Ftemplates%2F"
   BEG_URL: "https://resource.metadatacenter.org/template-instances/https%3A%2F%2Frepo.metadatacenter.org%2Ftemplate-instances%2F"
-  API_KEY: "your API KEY"
+  API_KEY: "apiKey 7a2b8566719170c35d73e895bf3c8648660360ba70d9bc522cc51b9b56bf7b3a"
